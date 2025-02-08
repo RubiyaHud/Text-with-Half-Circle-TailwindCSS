@@ -1,0 +1,48 @@
+/* HTML code */
+/* 
+<div class="textWithCircle m-auto">
+    <a href="#" class="text">Read more</a>
+    <div class="circle"></div>
+</div> 
+*/
+/* CSS code */
+.textWithCircle {
+    width: 184px;
+    height: 40px;
+    background: pink;
+    position: relative;
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: 700;
+}
+.circle {
+    width: 27px;
+    height: 40px;
+    border-radius: 0 90px 90px 0;
+    -moz-border-radius: 0 90px 90px 0;
+    -webkit-border-radius: 0 90px 90px 0;
+    background: rgba(25, 191, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+}
+.textWithCircle:hover .text {
+    color: white;
+}
+.textWithCircle:hover .circle {
+    background: rgba(106, 98, 197, 0.3);
+}
+
+/* Group hover */
+/* https://www.geeksforgeeks.org/what-are-group-and-group-hover-classes-in-tailwind-css/ */
+/* https://v2.tailwindcss.com/docs/hover-focus-and-other-states */
+
+/* Half circle */
+/* https://codepen.io/qdev/pen/eZMQjj */
+/* https://www.w3schools.com/cssref/css3_pr_border-radius.php */
