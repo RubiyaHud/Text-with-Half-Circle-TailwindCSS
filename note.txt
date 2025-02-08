@@ -4,3 +4,5 @@
         class="font-openSans font-bold text-[17px] leading-[24px] text-[#141135] relative before:absolute before:w-[27px] before:h-[40px] before:content[''] before:bg-circleColor before:rounded-r-full before:top-[-5px] before:left-[80px]">
         Read more </a>
     </div>
+
+     git remote add origin https://github.com/RubiyaHud/Text-with-Half-Circle-TailwindCSS.git
